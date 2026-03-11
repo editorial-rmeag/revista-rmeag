@@ -7,103 +7,106 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Lora', serif; background-color: #f4f7f9; color: #333; }
+        body { font-family: 'Lora', serif; background-color: #f4f7f9; color: #333; line-height: 1.6; }
         .navbar { background-color: #002b5c; border-bottom: 4px solid #c1a35f; }
-        .hero { background-color: #002b5c; color: white; padding: 80px 0; text-align: center; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; }
-        .badge-issn { background-color: #c1a35f; color: #002b5c; font-weight: bold; padding: 8px 15px; border-radius: 5px; }
-        .card-chamada { border: none; border-top: 5px solid #002b5c; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-radius: 8px; }
-        .btn-submeter { background-color: #c1a35f; color: #002b5c; font-weight: bold; font-size: 1.2rem; padding: 15px 40px; border: none; transition: 0.3s; }
-        .btn-submeter:hover { background-color: #a88d4f; color: white; transform: translateY(-3px); }
-        .section-title { font-family: 'Playfair Display', serif; border-bottom: 2px solid #002b5c; display: inline-block; margin-bottom: 25px; }
-        footer { background-color: #002b5c; color: white; padding: 40px 0; margin-top: 60px; }
+        .hero { background-color: #002b5c; color: white; padding: 100px 0; text-align: center; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 20px; }
+        .badge-issn { background-color: #c1a35f; color: #002b5c; font-weight: bold; padding: 10px 20px; border-radius: 5px; font-size: 1rem; }
+        .card-main { border: none; border-top: 6px solid #002b5c; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border-radius: 10px; background: white; }
+        .btn-submeter { background-color: #c1a35f; color: #002b5c; font-weight: bold; font-size: 1.3rem; padding: 18px 45px; border: none; transition: 0.3s ease; text-decoration: none; display: inline-block; border-radius: 8px; }
+        .btn-submeter:hover { background-color: #a88d4f; color: white; transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+        .section-title { font-family: 'Playfair Display', serif; color: #002b5c; border-bottom: 2px solid #c1a35f; display: inline-block; margin-bottom: 30px; }
+        .sidebar-card { border: none; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; margin-bottom: 25px; }
+        footer { background-color: #002b5c; color: white; padding: 50px 0; margin-top: 80px; }
     </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="#">RMEAG</a>
+        <a class="navbar-brand fw-bold fs-2" href="#">RMEAG</a>
         <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#chamada">Chamada para Artigos</a>
-            <a class="nav-link" href="#expediente">Expediente</a>
-            <a class="nav-link" href="#diretrizes">Diretrizes</a>
+            <a class="nav-link px-3" href="#chamada">Chamada para Artigos</a>
+            <a class="nav-link px-3" href="#expediente">Expediente</a>
+            <a class="nav-link px-3" href="#diretrizes">Diretrizes</a>
         </div>
     </div>
 </nav>
 
 <header class="hero">
     <div class="container">
-        <h1 class="mb-3">Revista Multidisciplinar de Estudos Acadêmicos e Gestão</h1> [cite: 3]
-        <p class="lead mb-4">Publicação científica dedicada ao Direito, Administração Pública e Gestão.</p> [cite: 4]
+        <h1>Revista Multidisciplinar de Estudos Acadêmicos e Gestão</h1>
+        <p class="lead mb-4">Excelência em pesquisa acadêmica sobre Direito, Administração Pública e Gestão.</p>
         <div class="mb-5">
-            <span class="badge-issn">e-ISSN: [Solicitado / Em Análise]</span> [cite: 5]
+            <span class="badge-issn">e-ISSN: [Solicitado / Em Análise]</span>
         </div>
-        <a href="#" target="_blank" class="btn btn-submeter shadow">📥 SUBMETER ARTIGO PARA AVALIAÇÃO</a> [cite: 7]
+        <a href="https://forms.gle/exemplo" target="_blank" class="btn-submeter shadow">📥 SUBMETER ARTIGO PARA AVALIAÇÃO</a>
     </div>
 </header>
 
 <main class="container mt-5">
     <div class="row">
         <div class="col-lg-8 mb-5" id="chamada">
-            <h2 class="section-title">Chamada para Artigos: Vol. 1, Nº 1 (2026)</h2> [cite: 8]
+            <h2 class="section-title">Edital de Chamada: Volume 1 (2026)</h2>
             
-            <div class="card card-chamada p-5 bg-white">
-                <h3 class="fw-bold mb-4" style="color: #002b5c;">Edição Inaugural</h3>
-                <p class="fs-5">A <strong>RMEAG</strong> comunica a abertura do edital para submissão de artigos científicos originais. Buscamos contribuições inéditas que promovam o debate sobre a modernização do Estado e os desafios jurídicos contemporâneos.</p>
+            <div class="card card-main p-5">
+                <h3 class="fw-bold mb-4" style="color: #002b5c;">Abertura de Submissões</h3>
+                <p class="fs-5 text-secondary">A <strong>RMEAG</strong> convida pesquisadores, docentes e discentes a submeterem manuscritos inéditos para compor nossa edição de lançamento. Buscamos trabalhos que tragam contribuições teóricas ou práticas relevantes para a gestão pública e o ordenamento jurídico brasileiro.</p>
                 
-                <h5 class="fw-bold mt-4">Eixos Temáticos:</h5>
-                <ul class="list-group list-group-flush mb-4">
-                    <li class="list-group-item">🔹 Direito Administrativo e Constitucional.</li>
-                    <li class="list-group-item">🔹 Implementação da LGPD na Gestão Municipal.</li>
-                    <li class="list-group-item">🔹 Eficiência e Ética no Serviço Público.</li>
-                    <li class="list-group-item">🔹 Gestão de Recursos e Políticas Públicas.</li>
-                </ul>
+                <h5 class="fw-bold mt-4 mb-3">Principais Eixos Temáticos:</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>✔️ Direito Administrativo</li>
+                            <li>✔️ Gestão de Políticas Públicas</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>✔️ LGPD na Administração Pública</li>
+                            <li>✔️ Ética e Eficiência no Setor Público</li>
+                        </ul>
+                    </div>
+                </div>
 
-                <div class="alert alert-secondary border-0 p-4">
-                    <h6 class="fw-bold mb-2">Informações Importantes:</h6>
-                    <p class="small mb-0">
-                        <strong>Sistema de Avaliação:</strong> Revisão por pares duplo-cega (Double Blind Peer Review). [cite: 32]<br>
-                        <strong>Periodicidade:</strong> Fluxo contínuo (Publicação imediata após aprovação).<br>
-                        <strong>Idioma:</strong> Português.
-                    </p>
+                <div class="mt-4 p-4 rounded bg-light border-start border-4 border-primary">
+                    <p class="mb-0"><strong>Processo de Avaliação:</strong> Os artigos serão avaliados através do sistema <em>Double Blind Peer Review</em>, garantindo o anonimato e a qualidade científica.</p>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-4">
-            <div class="card p-4 shadow-sm border-0 mb-4" id="expediente"> [cite: 23]
-                <h5 class="fw-bold border-bottom pb-2">Expediente</h5> [cite: 9]
-                <p class="mb-1 fw-bold mt-3">Editora-Chefe:</p> [cite: 24]
+        <aside class="col-lg-4">
+            <div class="card sidebar-card p-4 bg-white" id="expediente">
+                <h5 class="fw-bold border-bottom pb-2 mb-3">Expediente Editorial</h5>
+                <p class="mb-1 fw-bold">Editora-Chefe:</p>
                 <p class="small text-muted mb-3">
-                    [Nome da sua Irmã] [cite: 25]<br>
-                    Servidora Pública e Graduanda em Gestão Pública. [cite: 26]
+                    [Nome da sua Irmã]<br>
+                    Servidora Pública e Especialista em Gestão Pública.
                 </p>
-                
-                <p class="mb-1 fw-bold">Conselho Editorial:</p> [cite: 27]
-                <ul class="list-unstyled small text-muted">
-                    <li>Willian da Silva – Acadêmico de Direito (Unicnec). [cite: 28]</li>
-                    <li>[Nome do Colega] – Revisor Técnico e Consultor. [cite: 28]</li>
-                </ul>
-                
-                <p class="mb-1 fw-bold mt-3">Contato:</p>
-                <p class="small text-muted">editorial.rmeag@gmail.com</p> [cite: 30]
+                <p class="mb-1 fw-bold">Conselho de Revisão:</p>
+                <p class="small text-muted">
+                    Willian da Silva – Acadêmico de Direito (Unicnec).<br>
+                    Corpo de revisores técnicos convidados.
+                </p>
+                <p class="mb-1 fw-bold">Contato:</p>
+                <p class="small text-muted">editorial.rmeag@gmail.com</p>
             </div>
 
-            <div class="card p-4 shadow-sm border-0 bg-light" id="diretrizes"> [cite: 31]
-                <h5 class="fw-bold border-bottom pb-2">Normas de Publicação</h5>
-                <p class="small">Os manuscritos devem seguir rigorosamente as normas da <strong>ABNT</strong> para artigos científicos. [cite: 33]</p>
-                <p class="small">O arquivo deve ser enviado em formato Word ou PDF, sem identificação dos autores no corpo do texto para garantir a imparcialidade na avaliação.</p> [cite: 33]
+            <div class="card sidebar-card p-4 bg-light" id="diretrizes">
+                <h5 class="fw-bold border-bottom pb-2 mb-3">Diretrizes para Autores</h5>
+                <p class="small">1. Os textos devem estar em formato Word ou PDF conforme normas ABNT.</p>
+                <p class="small">2. O arquivo não deve conter identificação de autoria (remova metadados).</p>
+                <p class="small">3. Envie o resumo e palavras-chave junto ao corpo do texto.</p>
             </div>
-        </div>
+        </aside>
     </div>
 </main>
 
 <footer class="text-center">
     <div class="container">
-        <p class="fw-bold mb-1">© 2026 RMEAG - Revista Multidisciplinar de Estudos Acadêmicos e Gestão</p> [cite: 34]
-        <p class="small mb-0 opacity-75">Publicação Científica de Acesso Aberto (Open Access)</p>
-        <p class="small opacity-75">Osório/RS, Brasil</p> [cite: 34]
+        <p class="fw-bold mb-1">© 2026 RMEAG - Revista Multidisciplinar de Estudos Acadêmicos e Gestão</p>
+        <p class="small mb-0 opacity-75">Publicação de Acesso Aberto (Open Access)</p>
+        <p class="small opacity-75">Osório/RS, Brasil</p>
     </div>
 </footer>
 
